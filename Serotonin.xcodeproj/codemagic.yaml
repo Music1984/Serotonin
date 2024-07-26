@@ -6,8 +6,8 @@ workflows:
 ios-native:
   environment:
     vars:
-      BUNDLE_ID: "io.codemagic.sample.iosnative"
-      XCODE_WORKSPACE: "project.xcworkspace" # <-- Name of your Xcode workspace
+      BUNDLE_ID: "pisshill.usprebooter"
+      XCODE_WORKSPACE: "usprebooter.xcworkspace" # <-- Name of your Xcode workspace
       XCODE_SCHEME: "usprebooter" # <-- Name of your Xcode scheme
 scripts:
   # ...
